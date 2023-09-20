@@ -1,0 +1,16 @@
+.header{
+    background-color: #1f2937;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 3px;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    width: 150px;
+    height: auto;
+}
