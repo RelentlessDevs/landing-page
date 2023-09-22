@@ -1,12 +1,16 @@
 .header{
     background-color: #1f2937;
+
+    
+    
 }
 .links{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 3px;
-    gap: 20px;
+    flex-direction:row;
+    justify-content:flex-end;
+        padding: 3px;
+    gap: 10px;
+    
 }
 
 .logo{
@@ -14,8 +18,18 @@
     width: 150px;
     height: auto;
 }
-
-.footer{
-    background-color: #1f2937;
-
+.item{
+    min-height: 200px;
+}
+.imghead-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    margin-right: 50px;
+}
+.hero-container{
+    display: flex;
+    padding-left: 50px;
+    justify-content: ;
+    flex-direction: column;
 }
