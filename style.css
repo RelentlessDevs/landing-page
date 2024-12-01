@@ -2,10 +2,10 @@
 .header{
     background-color: #1f2937;
     display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items: flex-end;
-    
+    flex-direction: row;            /* Arranges items horizontally */
+    justify-content: space-between; /* Spreads content across space */
+    align-items: center;           /* Centers items vertically */
+    padding: 50px 200px;    
 }
 
 .img-header{
@@ -16,11 +16,8 @@
 
 .links{
     display: flex;
-    flex-direction:row-reverse;
-    justify-content:flex-start;
-    padding: 50px;
-    gap: 10px;
-    flex-shrink: 1 ;
+    gap: 20px;                       /* Space between links */
+    align-items: center;
    }
 
 .logo{
@@ -29,7 +26,10 @@
     height:auto ;
 }
 .item{
-    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .imghead-container{
     display: flex;
@@ -44,29 +44,17 @@
 
 .hero-container{
     display: flex;
-    flex: 2 ;
-    justify-content: space-evenly;
-    flex-direction: column;
-    border: solid black 10px;
-    width: 500px;
-    height: 800px;
-    align-self: flex-start;
-    align-content: center;
-    margin-bottom: 200px;
-    gap: 50px; 
-   
-  
-
-    
+    flex-direction: column;        /* Stacks text elements vertically */
+    gap: 10px;                    /* Adds space between elements */
+    max-width: 500px;             /* Limits width but keeps it flexible */
+    height: auto; 
 }
 
 .flex-container{
     display: flex;
-    padding: 100px;
-    gap: 100px;
+    padding: 50px 200px;          /* Consistent padding with other sections */
+    gap: 40px;                    /* More reasonable spacing */
     justify-content: center;
-    align-items: center;
-   
 }
 
 .p{
@@ -96,7 +84,9 @@
 
 .navcontainer{
     background-color: #1f2937;
-
-
+    display: flex;                    /* Makes container flexible */
+    justify-content: space-between;   /* Pushes logo and links apart */
+    align-items: center;             /* Centers items vertically */
+    padding: 20px 200px; 
 }
 
