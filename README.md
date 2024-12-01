@@ -3,6 +3,8 @@
 ## Project Overview 🌲
 Fellowship of the Wild is a responsive landing page designed to connect hunters and outdoor enthusiasts. This project demonstrates modern web development practices using HTML and CSS, with a focus on responsive design and semantic markup.
 
+I think my favorite part of this project was the use of midjourney AI images for the page.
+
 ![image](https://github.com/user-attachments/assets/2bb829ea-c450-4d62-9f13-779c85f43106)
 
 
